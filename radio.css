@@ -1,16 +1,102 @@
 @import
   url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 * {
-  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   text-align:center;
+  color: #fff;
+
+  line-height:1.6;
+  height:100vh;
 }
 
+nav a:hover,
+nav a:focus {
+  color: #DDD;
+}
 
+.title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1.5em;
+  }
+  .title span {
+    font-weight: 300;
+    display: block;
+    font-size: .9em;
+  }
 
- 
+header {
+  position: absolute;
+  margin-top:1em;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+
+nav ul {
+  margin:0;
+  padding: 0;
+  list-style:none;
+}
+nav li {
+  float: left;
+  display: block;
+  margin:1em;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.15rem;
+  margin: 2em 4em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5em 1.75em;
   
+}
+.button-accent {
+  color: blue;
+  border-color: blue;
+}
 
+.button-accent:hover,
+.button-accent:focus {
+  background: blue;
+  color: #232323;
+  
+}
+
+  
+nav a {
+  font-weight: 1000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5em;
+  color: rgb(170, 22, 22);
+}
+.home-radio {
+  padding: 8em 0;
+  color:#fff;
+  background-size: hover;
+  background-position: left;
+}
+footer {
+  position: fixed;
+  margin:0;
+  padding: 0;
+}
+.radio-waves ul li a {
+  text-decoration: none;
+}
