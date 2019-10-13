@@ -7,7 +7,7 @@ gulp.task("browser-sync", function(){
     server: {
         baseDir: "./"
     }
-});
+})
 gulp.watch(["./*.html", "./css/*.css"]).on("change", browserSync.reload);
 
 } )
