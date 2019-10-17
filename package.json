@@ -12,5 +12,13 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriyMorozyuk95/RadioRelax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YuriyMorozyuk95/RadioRelax/issues"
+  },
+  "homepage": "https://github.com/YuriyMorozyuk95/RadioRelax#readme"
 }
