@@ -1,0 +1,50 @@
+.adv-header {  grid-area: header;  }
+.adv-content { grid-area: content; }
+.adv-download1 { grid-area: download1; text-align: left; padding: 30px 30px 0 0; }
+.adv-download2 { grid-area: download2; text-align: left; padding: 30px 30px 0 0; }
+.adv-empty-space { 
+  position: relative;
+  grid-area: empty-space;
+  justify-items: stretch;
+  width: 50%;
+  align-self: stretch;
+ }
+
+.grid-container-adv {
+  display: grid;
+  grid-template-areas:
+    "header header empty-space empty-space"
+    "content content empty-space empty-space"
+    "download1 download2 empty-space empty-space";
+    grid-template-columns: 33.333% 33.333% 33.333% 33.333%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.adv-h1{
+  color: black;
+  display: inline-block; 
+  text-align: center;
+  /* margin: 20px 10px 172px 0; */
+  
+}
+
+.adv-h3{
+  color: black;
+  text-align: left;
+  margin: 0px 0 50px 0;
+}
+
+.adv-h4{
+  color: black; display: inline-block; text-align: left;
+}
+
+.adv-p{
+  color: black;
+  text-align: left;
+}
+
+.adv-img{
+  align-self: baseline;
+}

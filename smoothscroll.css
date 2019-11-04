@@ -73,15 +73,16 @@ section#about {
   background: url(img/about.jpg) no-repeat center center/cover;
 }
 section#commercial {
-  background: url(img/commercial.jpg) no-repeat center center/cover;
+  background: transparent ;
 }
 section#contact {
-  /* background: url(img/contact.jpg) no-repeat center center/cover; */
-  background: white ;
+  background: transparent ;
 }
 
 section#listen {
   background: url(img/listen.jpg) no-repeat center center/cover;
 }
 
-
+section#adv-contact-section{
+  background: url(img/backgroundReklam.png) no-repeat top ;
+}
