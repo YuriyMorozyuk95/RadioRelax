@@ -1,0 +1,67 @@
+.grid-item-app-reference
+{
+  background-color:transparent;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  position: relative;
+  left: 0;
+}
+
+.grid-item-social-media
+{
+  background-color:transparent;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  position: right;
+  margin: 10px;
+  align-self: flex-end;
+  justify-items: end;
+}
+
+.grid-columns-span-3 {
+  grid-column: span 3;
+  background-color:transparent;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  height: 379.23px;
+  align-self: stretch;
+}
+
+
+.p-contact{
+  text-align: left;
+  color: black;
+}
+.h3-contact{
+  text-align: center;
+  color: black;
+  position: relative;
+  display:block;
+  margin: 0px 0px 0px 25px;
+
+  font-family: TT Travels;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+}
+.img-contact{
+  margin: 10px;
+}
+
+.grid-container-contact {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+}
+.grid-item {
+  background-color:transparent;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
