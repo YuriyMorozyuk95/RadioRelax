@@ -22,33 +22,36 @@
     padding: 10px;
 }
 
-.m-header{
+.section-header{
   text-align: left;
 }
 
-
-.m-h1{
+h4{
   color: black;
   display: inline-block; 
-  text-align: left;
-  align-self: left;
 }
 
-.m-h3{
+h3{
   color: black;
   text-align: left;
   margin: 0px 0 50px 0;
+  /* font-family: TT Travels; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
 }
 
+h1{
+  color: black;
+  display: inline-block; 
+}
 
-.p{
+p{
   color: black;
   text-align: left;
 }
 
-.m-img{
-  align-self: baseline;
-}
 
 .last-artlicle {
   margin: 30px 30px 30px 0;
@@ -65,6 +68,13 @@
 }
 
 .download-item{
+  margin: 50px 50px 50px 0;
+  position: relative;
+  max-width: 300px;
+  float: left;
+}
+
+.contacts{
   margin: 50px 50px 50px 0;
   position: relative;
   max-width: 300px;
