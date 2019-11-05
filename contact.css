@@ -1,20 +1,22 @@
-.grid-item-app-reference
-{
-  background-color:transparent;
-  position: relative;
- 
+.inline{
+  align-self: stretch;
 }
 
-.grid-item-social-media
+.app-reference
 {
   background-color:transparent;
-  position: right;
   margin: 10px;
-  align-self: flex-end;
-  justify-items: end;
+  float: left;
 }
 
-.grid-columns-span-3 {
+.social-media-reference
+{
+  background-color:transparent;
+  margin: 10px;
+  float: right;
+}
+
+#googleMap{
   grid-column: span 3;
   background-color:transparent;
   padding: 20px;
@@ -24,6 +26,14 @@
 
 img{
   margin: 10px;
+}
+
+
+.grid-item {
+  background-color:transparent;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .grid-container-contact {
@@ -36,10 +46,4 @@ img{
   padding: 0;
   bottom: 0;
   left: 0;
-}
-.grid-item {
-  background-color:transparent;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 }
