@@ -1,0 +1,72 @@
+.adv-header {  grid-area: header;  }
+.adv-content { grid-area: content; }
+.adv-download1 { grid-area: download1; text-align: left; padding: 30px 30px 0 0; }
+.adv-download2 { grid-area: download2; text-align: left; padding: 30px 30px 0 0; }
+.adv-empty-space { 
+  position: relative;
+  grid-area: empty-space;
+  justify-items: stretch;
+  width: 50%;
+  align-self: stretch;
+ }
+
+.grid-container-adv {
+  display: grid;
+  grid-template-areas:
+    "header header empty-space empty-space"
+    "content content empty-space empty-space"
+    "download1 download2 empty-space empty-space";
+    grid-template-columns: 33.333% 33.333% 33.333% 33.333%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.m-header{
+  text-align: left;
+}
+
+
+.m-h1{
+  color: black;
+  display: inline-block; 
+  text-align: left;
+  align-self: left;
+}
+
+.m-h3{
+  color: black;
+  text-align: left;
+  margin: 0px 0 50px 0;
+}
+
+
+.p{
+  color: black;
+  text-align: left;
+}
+
+.m-img{
+  align-self: baseline;
+}
+
+.last-artlicle {
+  margin: 30px 30px 30px 0;
+  position: relative;
+  max-width: 580px;
+  float: initial;
+}
+
+.artlicle {
+  margin: 30px 30px 30px 0;
+  position: relative;
+  float: left;
+  max-width: 580px;
+}
+
+.download-item{
+  margin: 50px 50px 50px 0;
+  position: relative;
+  max-width: 300px;
+  float: left;
+}
