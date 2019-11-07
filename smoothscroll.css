@@ -45,7 +45,6 @@ section {
   justify-content: left;
   text-align: center;
   width: 100%;
-  /* height: 100vh; */
   scroll-snap-align: center;
 }
 
@@ -61,13 +60,16 @@ section#home-radio {
   background: url(img/home.jpg) no-repeat center center/cover;
 }
 section#radio-waves {
-  background: url(img/concert.jpg) no-repeat center center/cover;
+  background: url(img/RadioMap.png) no-repeat top ;
+  background-size: auto;
+  height: 776px;
 }
 section#programs {
   background: url(img/programs.jpg) no-repeat center center/cover;
 }
 section#compains {
   background: url(img/compains.jpg) no-repeat center center/cover;
+  
 }
 section#about {
   background: transparent ;
