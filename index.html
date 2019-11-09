@@ -13,16 +13,16 @@
     <link rel = "stylesheet" href = "/advertising.css">
     <link rel = "stylesheet" href = "/aboutUs.css">
     <link rel = "stylesheet" href = "/radioWaves.css">
+    <link rel = "stylesheet" href = "/SliderShow.css">
 
 </head>
-
 
    
     <body>
     <div class="container">
       <nav class="navbar">
         <ul>
-          <li><a href="#home-radio">Главная</a></li>
+          <li><a href="#home">Главная</a></li>
           <li><a href="#radio-waves">Частоты</a></li>
           <li><a href="#programs">Программы</a></li>
           <li><a href="#compains">Кампании</a></li>
@@ -32,24 +32,38 @@
           <li><a href="#contact">Контакты</a></li>
         </ul>
       </nav>
-    
-    
-
-    
-    <!-- <section id="home-radio">
+    <section id="home">
       
-      <h1 class="title">Radio Relax
-        <span>Make the music sound new, hello world, goodbye world</span></h1>
-      <a href="#listen" class="button button-accent">Listen</a>  
-    </section> -->
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="img/banner1.png" class="image-banner">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="img/banner2.png" class="image-banner">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"><img src="img/RightArrow.png"/></a>
+        <a class="next" onclick="plusSlides(1)"><img src="img/LeftArrow.png"/></a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </section>
 
 
-    <section id="programs">
+    <!-- <section id="programs">
         <div class="section-header">
             <h1>Sagedused</h1>
             <img src="img/SagedusedIcon.png"/>
           </div>
-      </section> 
+      </section>  -->
 
     <section id="radio-waves">
   
@@ -78,12 +92,12 @@
     </section>
  
 
-<section id="compains">
+<!-- <section id="compains">
   <h1 class="title">Компании</h1>
   <p>Различные розыгрыши</p>
-</section>
+</section> -->
 
-<section id="listen">
+<!-- <section id="listen">
     <h1 class="title">Слушать наше радио!</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit nihil eveniet accusantium, neque pariatur?</p>
   </section> -->
@@ -191,7 +205,7 @@
     </section>
   </section>
 
-        <div class="musicbar">
+        <!-- <div class="musicbar">
           <div class="music-play">
           <div class="play-controls">
           <div class="controls">
@@ -214,11 +228,8 @@
           </div>
           </div>
       </div>
-      </div>
-
-
-    </div>
-    <footer>
+    </div> -->
+    <!-- <footer>
         <div class="col-3">
        <p>footer</p>
         </div>
@@ -231,7 +242,7 @@
          <li>Parrot</li>
          <li>Word</li>
         </ul>
-        </footer>
+        </footer> -->
   
   
 
