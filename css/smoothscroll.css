@@ -46,26 +46,24 @@ section {
   text-align: center;
   width: 100%;
   scroll-snap-align: center;
-  padding: 35px 15px 35px 15px;
+  padding: 70px 15px 0px 15px;
 }
 
-.googleMapSection{
-  padding: 0px 0px 0px 0px;
-}
 
-section h1 {
+/* section h1 {
   font-size: 4rem;
 
 }
 section p {
   font-size: 1.5rem;
 
-}
+} */
 section#home{
   background: transparent;
 }
 section#radio-waves {
-  background: url(img/RadioMap.png) no-repeat top ;
+  background: url(../img/RadioMap.png) no-repeat top ;
+  /* background-image: url('../img/RadioMap.png'); */
   background-size: auto;
   height: 776px;
 }
@@ -73,7 +71,7 @@ section#programs {
   background: transparent ;
 }
 section#compains {
-  background: url(img/compains.jpg) no-repeat center center/cover;
+  background: url(../img/compains.jpg) no-repeat center center/cover;
   
 }
 section#about {
@@ -87,9 +85,10 @@ section#contact {
 }
 
 section#listen {
-  background: url(img/listen.jpg) no-repeat center center/cover;
+  background: url(../img/listen.jpg) no-repeat center center/cover;
 }
 
 section#adv-contact-section{
-  background: url(img/backgroundReklam.png) no-repeat top ;
+  background: url(../img/backgroundReklam.png) no-repeat top ;
+  padding: 0px 0px 0px 0px;
 }
