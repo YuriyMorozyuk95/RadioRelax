@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content ="ie=edge">
     <title>Creative Inc.</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <link rel = "stylesheet" href ="css/radio.css">
     <link rel = "stylesheet" href = "css/smoothscroll.css">
     <link rel = "stylesheet" href = "css/audiobar.css">
@@ -13,12 +15,10 @@
     <link rel = "stylesheet" href = "css/SliderShow.css">
     <link rel = "stylesheet" href = "css/programSlider.css">
     <link rel = "stylesheet" href = "css/font-face.css">
-
 </head>
 
    
     <body>
-    <div class="container">
       <nav class="navbar">
         <ul>
           <li><a href="#home">Главная</a></li>
@@ -36,11 +36,11 @@
       <br class="first-line">
       <div class="slideshow-container">
 
-        <div class="mySlides fade">
+        <div class="mySlides fade-animation">
           <img src="img/banner1.png" class="image-banner">
         </div>
         
-        <div class="mySlides fade">
+        <div class="mySlides fade-animation">
           <img src="img/banner2.png" class="image-banner">
         </div>
 
@@ -66,7 +66,7 @@
 
 
       <div class="program-slideshow-container">
-        <div class="programSlides fade">
+        <div class="programSlides fade-animation">
           <div class="program-artlicle">
             <h3>Morning review</h3>
             <p>A wonderful serenity has taken possession of my entire soul, 
@@ -191,41 +191,42 @@
     </section>
 
     <section id="contact">
-      <div class="grid-container-contact">
-            <div class="contacts">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
               <h3>Reklaam</h3>
               <p> +372 5908 7099</p>
               <p>reklaam@relaxfm.ee</p>
-            </div>
-            <div class="contacts">
+              </div>
+              <div class="col-md-4 col-sm-12">
               <h3>Relax FM</h3>
               <p>Astangu 36, 13519 Tallinn</p>
               <p>+372 5908 7099</p>
               <p>info@relaxfm.ee</p>
-            </div>
-            <div class="contacts">
+              </div>
+              <div class="col-md-4 col-sm-12">
               <h3>Northstar Media OÜ</h3>
               <p>Pärnu mnt 139e/11, 11317 Tallinn</p>
               <p>+372 5908 7099</p>
               <p>vital@northstar.ee</p>
-            </div>  
+              </div>  
           </div>
-          <div class="inline">
-            <div class="app-reference">
-                  <img src="/img/AppStorelogo.png"/>
-                  <img src="/img/GooglePlaylogo.png"/>
-                  <img src="/img/TuneInlogo.png"/>
+         
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+                  <img class="float-left" src="/img/AppStorelogo.png"/>
+                  <img class="float-left" src="/img/GooglePlaylogo.png"/>
+                  <img class="float-left" src="/img/TuneInlogo.png"/>
             </div>
-            <div class="social-media-reference">  
-              <img src="/img/FacebookIcon.png"/>
-              <img src="/img/InstagramIcon.png"/>
-              <img src="/img/TwitterIcon.png"/>
+            <div class="col-md-4 col-sm-12">  
+              <img class="float-right" src="/img/FacebookIcon.png"/>
+              <img class="float-right"src="/img/InstagramIcon.png"/>
+              <img class="float-right" src="/img/TwitterIcon.png"/>
             </div>
           </div>  
-            
+        </div>
     </section>
-  </section>
-  <section class="googleMapSection">
+
     <div id="googleMap"></div>
   </section>
 
@@ -267,12 +268,10 @@
          <li>Word</li>
         </ul>
         </footer> -->
-  
-  
-
- <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js></script> 
-<script src="js/main.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbJrCLRxrBstxF5ZKArU7KFukUWY8ZikE&callback=myMap"></script>
+        <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js></script> 
+        <script src="js/main.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbJrCLRxrBstxF5ZKArU7KFukUWY8ZikE&callback=myMap"></script>
+ 
   </body>
 </html>
                                

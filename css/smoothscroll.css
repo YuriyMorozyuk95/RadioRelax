@@ -46,12 +46,9 @@ section {
   text-align: center;
   width: 100%;
   scroll-snap-align: center;
-  padding: 35px 15px 35px 15px;
+  padding: 70px 15px 0px 15px;
 }
 
-.googleMapSection{
-  padding: 0px 0px 0px 0px;
-}
 
 /* section h1 {
   font-size: 4rem;
@@ -93,4 +90,5 @@ section#listen {
 
 section#adv-contact-section{
   background: url(../img/backgroundReklam.png) no-repeat top ;
+  padding: 0px 0px 0px 0px;
 }
