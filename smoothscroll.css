@@ -46,6 +46,7 @@ section {
   text-align: center;
   width: 100%;
   scroll-snap-align: center;
+  padding: 35px 15px 35px 15px;
 }
 
 section h1 {
@@ -65,7 +66,7 @@ section#radio-waves {
   height: 776px;
 }
 section#programs {
-  background: url(img/programs.jpg) no-repeat center center/cover;
+  background: transparent ;
 }
 section#compains {
   background: url(img/compains.jpg) no-repeat center center/cover;

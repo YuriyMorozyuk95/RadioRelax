@@ -14,6 +14,7 @@
     <link rel = "stylesheet" href = "/aboutUs.css">
     <link rel = "stylesheet" href = "/radioWaves.css">
     <link rel = "stylesheet" href = "/SliderShow.css">
+    <link rel = "stylesheet" href = "/ProgramSlider.css">
 
 </head>
 
@@ -32,8 +33,9 @@
           <li><a href="#contact">Контакты</a></li>
         </ul>
       </nav>
+   
     <section id="home">
-      
+      <br class="first-line">
       <div class="slideshow-container">
 
         <div class="mySlides fade">
@@ -58,12 +60,33 @@
     </section>
 
 
-    <!-- <section id="programs">
-        <div class="section-header">
-            <h1>Sagedused</h1>
-            <img src="img/SagedusedIcon.png"/>
+    <section id="programs">
+      <div class="section-header">
+        <h1>Programmid</h1>
+        <img src="img/ProgrammidIcon.png"/>
+      </div> 
+
+
+      <div class="program-slideshow-container">
+        <div class="programSlides fade">
+          <div class="program-artlicle">
+            <h3>Morning review</h3>
+            <p>A wonderful serenity has taken possession of my entire soul, 
+               like these sweet mornings of spring which I enjoy with my whole heart.
+               I am alone, and feel the charm of existence in this spot, 
+               which was created for the bliss of souls like mine. </p>
+            <h5>08:00 - 12:00</h5>
+            <span class="program-dot"></span> 
           </div>
-      </section>  -->
+        </div>
+        
+        <a class="prev" onclick="plusProgramSlides(-1)"><img src="img/RightArrow.png"/></a>
+        <a class="next" onclick="plusProgramSlides(1)"><img src="img/LeftArrow.png"/></a>
+      </div>
+
+
+
+    </section> 
 
     <section id="radio-waves">
   
@@ -110,8 +133,8 @@
         <img src="img/MeistIcon.png"/>
       </div>
       <div class="artlicle">
-        <h3 class="m-h3">Our story</h3>
-        <p class="m-p">One morning, when Gregor Samsa woke from troubled dreams, 
+        <h3>Our story</h3>
+        <p >One morning, when Gregor Samsa woke from troubled dreams, 
           he found himself transformed in his bed into a horrible vermin. 
           He lay on his armour-like back, and if he lifted his head a little he could see his brown belly,
           slightly domed and divided by arches into stiff sections. The bedding was hardly able 
@@ -122,8 +145,8 @@
       </div>
 
       <div class="artlicle">
-          <h3 class="m-h3">Our values</h3>
-          <p class="m-p">He thought. It wasn't a dream.
+          <h3>Our values</h3>
+          <p>He thought. It wasn't a dream.
              His room, a proper human room although a little too small, 
              lay peacefully between its four familiar walls. 
              A collection of textile samples lay spread out on the table - Samsa 

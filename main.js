@@ -54,3 +54,29 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+
+
+var slideProgramIndex = 1;
+showProgramSlides(slideProgramIndex);
+
+function plusProgramSlides(n) {
+  showSlides(slideProgramIndex += n);
+}
+
+function showProgramSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("programSlides");
+  if (n > slides.length) {slideProgramIndex = 1}    
+  if (n < 1) {slideProgramIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideProgramIndex-1].style.display = "block";  
+  dots[slideProgramIndex-1].className += " active";
+}

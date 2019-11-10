@@ -4,44 +4,15 @@
 
 
 /* Slideshow container */
-.slideshow-container {
-  max-height: 730px;
-  min-height: 730px;
+.program-slideshow-container {
+  /* max-height: 730px;
+  min-height: 730px; */
   width: 100%;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  user-select: none;
-}
-
-.prev{
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
-
-.image-banner{
-  width:auto; 
-  height:100%; 
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-
-.dot {
+.program-dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -51,11 +22,23 @@
   border-radius: 50%;
   display: inline-block;
   border: 1.5px solid black;
-  transition: background-color 0.6s ease; 
 }
 
+h5{
+  color: #A0A0A0;
+  /* font-family: TT Travels; */
+  font-size: 14px;
+  line-height: 17px;
+}
 .active, .dot:hover {
   background-color: black;
+}
+
+.program-artlicle {
+  margin: 30px 30px 30px 0;
+  position: relative;
+  float: left;
+  max-width: 580px;
 }
 
 /* Fading animation */
