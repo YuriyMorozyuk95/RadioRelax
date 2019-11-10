@@ -14,11 +14,10 @@ $(".navbar a").on("click", function(e) {
 function myMap() {
 
     let map = new google.maps.Map(document.getElementById('googleMap'), {
-        center: new google.maps.LatLng(59.40941370085305, 24.738637332411827),
+        center: new google.maps.LatLng(59.405650, 24.734890),
         zoom: 18
       });
-
-    let radioRelax = new google.maps.LatLng(59.40941370085305, 24.738637332411827);
+    let radioRelax = new google.maps.LatLng(59.405650, 24.734890);
 
     let homeMarker = new google.maps.Marker({
         map: map,
@@ -76,3 +75,12 @@ function showProgramSlides(n) {
   }
   slides[slideProgramIndex-1].style.display = "block";
 }
+
+jQuery(window).load(function() {
+ 
+  /*
+      Stop carousel
+  */
+  $('.carousel').carousel('pause');
+
+});

@@ -70,6 +70,7 @@ section h1.title > img {
 .program time {
   position: absolute;
   bottom: -2px;
+  left: 40px;
   color: #A0A0A0;
   font-size: 14px;
   line-height: 14px;
@@ -149,6 +150,8 @@ section h1.title > img {
     padding: 20px 45px 45px 45px;
     border-bottom: 1px solid black;
     border-left: none;
+    min-height: 300px;
+    max-height: 300px;
   }
   
   .program::after {
