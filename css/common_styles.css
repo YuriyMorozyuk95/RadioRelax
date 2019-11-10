@@ -57,6 +57,7 @@ img{
   font-size: 16px;
   line-height: 19px;
   margin: 50px 0px 0px 0px;
+  list-style-type: none;
 }
 
 .section-header{
