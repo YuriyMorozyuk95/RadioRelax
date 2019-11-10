@@ -63,7 +63,7 @@ var slideProgramIndex = 1;
 showProgramSlides(slideProgramIndex);
 
 function plusProgramSlides(n) {
-  showSlides(slideProgramIndex += n);
+  showProgramSlides(slideProgramIndex += n);
 }
 
 function showProgramSlides(n) {

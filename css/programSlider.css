@@ -24,12 +24,6 @@
   border: 1.5px solid black;
 }
 
-h5{
-  color: #A0A0A0;
-  /* font-family: TT Travels; */
-  font-size: 14px;
-  line-height: 17px;
-}
 .active, .dot:hover {
   background-color: black;
 }

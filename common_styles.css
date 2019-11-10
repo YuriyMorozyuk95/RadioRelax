@@ -51,6 +51,7 @@ img{
 .unstyled-list{
   text-align: left;
   color: black;
+  font-family: 'TT Travels';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -64,44 +65,31 @@ img{
 }
 
 h4{
+  font-family: 'TT Travels';
   color: black;
   display: inline-block; 
   text-decoration: underline;
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-
 }
 
 h3{
   color: black;
   text-align: left;
   margin: 0px 0 50px 0;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 43px;
+  font-family: 'TT Travels';
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  /* font-size: 36px; */
+  /* line-height: 43px; */
 }
 
 h1{
+  font-family: 'TT Travels';
   color: black;
   display: inline-block; 
-  font-style: normal;
-  font-weight: 500;
-  font-size: 72px;
-  line-height: 86px;
-  color: #000000;
-}
-
-h5{
-  color: #A0A0A0;
-  font-size: 14px;
-  line-height: 17px;
 }
 
 p{
+  font-family: 'TT Travels';
   color: black;
   text-align: left;
 }

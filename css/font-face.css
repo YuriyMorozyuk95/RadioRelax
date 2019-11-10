@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'TT Travels';
+  src: url('Font/TT\ Travels-Black.otf') format('otf')
+}
+
+/* @font-face {
+  font-family: 'TT Travels';
+  src: url('Font/TT\ Travels-Black.otf') format('otf'),
+  url('Font/TT\ Travels-BlackItalic.otf') format('otf'),
+  url('Font/TT\ Travels-Bold.otf') format('otf'),
+  url('Font/TT\ Travels-BoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-DemiBold.otf') format('otf'),
+  url('Font/TT\ Travels-DemiBoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-ExtraBold.otf') format('otf'),
+  url('Font/TT\ Travels-ExtraBoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-ExtraLight.otf') format('otf'),
+  url('Font/TT\ Travels-ExtraLightItalic.otf') format('otf'),
+  url('Font/TT\ Travels-Italic.otf') format('otf'),
+  url('Font/TT\ Travels-Light.otf') format('otf'),
+  url('Font/TT\ Travels-LightItalic.otf') format('otf'),
+  url('Font/TT\ Travels-Medium.otf') format('otf'),
+  url('Font/TT\ Travels-MediumItalic.otf') format('otf'),
+  url('Font/TT\ Travels-Regular.otf') format('otf'),
+  url('Font/TT\ Travels-Thin.otf') format('otf'),
+  url('Font/TT\ Travels-ThinItalic.otf') format('otf'),
+} */
+
+/* @font-face {
+  font-family: 'TT Travels';
+  font-style: italic;
+  src:
+  url('Font/TT\ Travels-BlackItalic.otf') format('otf'),
+  url('Font/TT\ Travels-BoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-DemiBoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-ExtraBoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-ExtraLightItalic.otf') format('otf'),
+  url('Font/TT\ Travels-Italic.otf') format('otf'),
+  url('Font/TT\ Travels-LightItalic.otf') format('otf'),
+  url('Font/TT\ Travels-MediumItalic.otf') format('otf'),
+  url('Font/TT\ Travels-ThinItalic.otf') format('otf'),
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  font-style: italic;
+  font-weight: bold;
+  src:
+ 
+  url('Font/TT\ Travels-BoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-DemiBoldItalic.otf') format('otf'),
+  url('Font/TT\ Travels-ExtraBoldItalic.otf') format('otf'),
+} */
