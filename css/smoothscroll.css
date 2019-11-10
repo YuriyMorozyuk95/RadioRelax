@@ -49,21 +49,11 @@ section {
   padding: 70px 15px 0px 15px;
 }
 
-
-/* section h1 {
-  font-size: 4rem;
-
-}
-section p {
-  font-size: 1.5rem;
-
-} */
 section#home{
   background: transparent;
 }
 section#radio-waves {
-  background: url(../img/RadioMap.png) no-repeat top ;
-  /* background-image: url('../img/RadioMap.png'); */
+  background: url(../assets/frequency-bg.svg) no-repeat top ;
   background-size: auto;
   height: 776px;
 }
