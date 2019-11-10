@@ -49,6 +49,10 @@ section {
   padding: 35px 15px 35px 15px;
 }
 
+.googleMapSection{
+  padding: 0px 0px 0px 0px;
+}
+
 section h1 {
   font-size: 4rem;
 
