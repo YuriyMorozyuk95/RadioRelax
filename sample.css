@@ -1,0 +1,179 @@
+
+
+/* body {
+  font-family: 'Travels Regular', sans-serif;
+  background-color: #E5E5E5;
+} */
+
+.row {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+#programs {
+  margin-top: 80px;
+}
+
+section h1.title {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  padding: 0 45px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+section h1.title > img {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.program {
+  position: relative;
+  padding: 20px;
+  border-left: 1px solid black;
+}
+
+.program:first-child {
+  padding-top: 0;
+}
+
+.program h2 {
+  padding-bottom: 35px;
+}
+
+.program::after {
+  content: "";
+  position: absolute;
+  left: -4px;
+  bottom: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #E5E5E5;
+}
+
+.program time {
+  position: absolute;
+  bottom: -2px;
+  color: #A0A0A0;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Barlow Condensed";
+}
+
+#programsCarousel {
+  position: relative;
+}
+
+.carousel-item {
+  padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+}
+
+#frequency {
+  position: relative;
+  margin: 40px 0;
+}
+
+#frequency::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("/assets/frequency-bg.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 60%;
+  z-index: -100;
+  opacity: 0.3;
+}
+
+#frequency ul {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+#frequency p,
+#frequency ul {
+  padding: 0 20px;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    padding: 0 30px;
+  }
+
+  section h1.title {
+    text-align: left;
+  }
+
+  section#programs h1.title {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  section#frequency h1.title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .program {
+    padding: 20px 45px 45px 45px;
+    border-bottom: 1px solid black;
+    border-left: none;
+  }
+  
+  .program::after {
+    left: 45px;
+    bottom: -4px;
+  }
+
+  .program time {
+    bottom: 8px;
+  }
+
+  #frequency {
+    min-height: 750px;
+  }
+
+  #frequency::after {
+    background-position: center;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
