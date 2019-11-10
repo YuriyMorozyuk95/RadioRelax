@@ -1,25 +1,63 @@
-.adv-header {  grid-area: header;  }
-.adv-content { grid-area: content; }
-.adv-download1 { grid-area: download1; text-align: left; padding: 30px 30px 0 0; }
-.adv-download2 { grid-area: download2; text-align: left; padding: 30px 30px 0 0; }
-.adv-empty-space { 
-  position: relative;
-  grid-area: empty-space;
-  justify-items: stretch;
-  width: 50%;
+.inline{
   align-self: stretch;
- }
+}
 
-.grid-container-adv {
+.app-reference
+{
+  background-color:transparent;
+  margin: 10px;
+  float: left;
+}
+
+.social-media-reference
+{
+  background-color:transparent;
+  margin: 10px;
+  float: right;
+}
+
+#googleMap{
+  grid-column: span 3;
+  background-color:transparent;
+  padding: 20px;
+  height: 379.23px;
+  align-self: stretch;
+}
+
+img{
+  margin: 10px;
+}
+
+
+.grid-item {
+  background-color:transparent;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container-contact {
   display: grid;
-  grid-template-areas:
-    "header header empty-space empty-space"
-    "content content empty-space empty-space"
-    "download1 download2 empty-space empty-space";
-    grid-template-columns: 33.333% 33.333% 33.333% 33.333%;
-    grid-template-rows: auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.unstyled-list{
+  text-align: left;
+  color: black;
+  font-family: TT Travels;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 50px 0px 0px 0px;
+  list-style-type: none;
 }
 
 .section-header{
