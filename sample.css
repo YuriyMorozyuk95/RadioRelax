@@ -1,43 +1,9 @@
-@font-face {
-  font-family: Travels Regular;
-  font-weight: 200;
-  src: url("assets/TT\ Travels-Thin.otf") format("opentype");
-}
 
-@font-face {
-  font-family: Travels Regular;
-  font-weight: 300;
-  src: url("assets/TT\ Travels-Light.otf") format("opentype");
-}
 
-@font-face {
-  font-family: Travels Regular;
-  font-weight: 400;
-  src: url("assets/TT\ Travels-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Travels Regular;
-  font-weight: 500;
-  src: url("assets/TT\ Travels-Medium.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Travels Regular;
-  font-weight: 600;
-  src: url("assets/TT\ Travels-DemiBold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: Travels Regular;
-  font-weight: 800;
-  src: url("assets/TT\ Travels-Bold.otf") format("opentype");
-}
-
-body {
+/* body {
   font-family: 'Travels Regular', sans-serif;
   background-color: #E5E5E5;
-}
+} */
 
 .row {
   margin: 0;
