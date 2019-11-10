@@ -1,0 +1,65 @@
+* {box-sizing: border-box}
+.mySlides {
+  display: none}
+
+
+/* Slideshow container */
+.program-slideshow-container {
+  /* max-height: 730px;
+  min-height: 730px; */
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.program-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 60px 0px 0; 
+  border-color: black;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1.5px solid black;
+}
+
+h5{
+  color: #A0A0A0;
+  /* font-family: TT Travels; */
+  font-size: 14px;
+  line-height: 17px;
+}
+.active, .dot:hover {
+  background-color: black;
+}
+
+.program-artlicle {
+  margin: 30px 30px 30px 0;
+  position: relative;
+  float: left;
+  max-width: 580px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
