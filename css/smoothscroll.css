@@ -65,7 +65,8 @@ section#home{
   background: transparent;
 }
 section#radio-waves {
-  background: url(img/RadioMap.png) no-repeat top ;
+  background: url(../img/RadioMap.png) no-repeat top ;
+  /* background-image: url('../img/RadioMap.png'); */
   background-size: auto;
   height: 776px;
 }
@@ -73,7 +74,7 @@ section#programs {
   background: transparent ;
 }
 section#compains {
-  background: url(img/compains.jpg) no-repeat center center/cover;
+  background: url(../img/compains.jpg) no-repeat center center/cover;
   
 }
 section#about {
@@ -87,9 +88,9 @@ section#contact {
 }
 
 section#listen {
-  background: url(img/listen.jpg) no-repeat center center/cover;
+  background: url(../img/listen.jpg) no-repeat center center/cover;
 }
 
 section#adv-contact-section{
-  background: url(img/backgroundReklam.png) no-repeat top ;
+  background: url(../img/backgroundReklam.png) no-repeat top ;
 }

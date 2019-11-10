@@ -6,7 +6,9 @@
 }
 body {
   margin: 0;
-  font-family: 'TT Travels','Raleway', sans-serif;
+  /* font-family: 'TT Travels','Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+
   text-align:center;
   color: #fff;
 
