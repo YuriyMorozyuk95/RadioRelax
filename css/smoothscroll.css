@@ -17,7 +17,6 @@
 .navbar ul {
   display: flex;
   list-style: none;
-  width: 100%;
   justify-content: center;
 }
 
@@ -25,17 +24,25 @@
   font-size: 1rem;
   margin: 0 0.5rem;
   padding: 0.5rem;
+
 }
 
 .navbar ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #f4f4f4;
-
+  font-family: TT Travels;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  word-wrap: n;
+  display: flex;
+  align-items: flex-end;
+  
+  color: #000000;
+  white-space: pre;
 }
 
 .navbar ul li a:hover {
-color: skyblue;
+color: black;
 }
 
 section {
