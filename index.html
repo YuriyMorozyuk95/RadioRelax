@@ -18,7 +18,8 @@
     <link rel = "stylesheet" href = "playerbar.css">
     <link rel = "stylesheet" href = "slider.css">
     <link rel = "stylesheet" href = "audioplayer.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    
 </head>
 
    
@@ -44,7 +45,6 @@
             <!-- <img src="assets/language-ee.svg"> -->
             <!-- add link to page with another language -->
          </div>
-
       </nav>
 
       <!-- player -->
@@ -61,7 +61,7 @@
           </ul>
         </div>
           <label for="nav-toggle" class="nav-toggle-label">
-            <span class="button-pl"><h1>Relax International</h1></span>
+            <span class="button-pl"><h1>Relax Radio</h1></span>
           </label>
           
               <div class="controls-pl">
@@ -76,18 +76,15 @@
                       <h1></h1> <h2><strong>Queen</strong>  --  Radio Gaga</h2>
   
                   </div>
-                  <div class="play-icon-volume">
+                  <!-- <div class="play-icon-volume"> -->
                      
-                    <i class="sound-up-down fa fa-volume-up"></i> 
-                  </div>
+                    <i class="play-icon-volume sound-up-down fa fa-volume-up"></i> 
+                  <!-- </div> -->
                   <div class="slidecontainer">
                       <input type="range" min="1" max="100" value="50" class="slider" id="myRange" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)">
                   </div>
               </div>
             </div>
-    
-<script src="player.js"></script>
-
 
     <section id="home">
       <br class="first-line">
@@ -372,14 +369,21 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
+        
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js></script> 
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
         <script src="js/main.js"></script>
+
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbJrCLRxrBstxF5ZKArU7KFukUWY8ZikE&callback=myMap"></script>
   </body>
 </html>

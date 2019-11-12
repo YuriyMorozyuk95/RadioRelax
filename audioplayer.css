@@ -12,12 +12,12 @@ display:inline-flex;
 position:absolute;
 text-decoration: none;
 text-transform: uppercase;
-top: 0.8em;
+top: 0.6em;
 margin-left: 14.5em;
 
 }
 .song-name h1 {
-    top: 1em;
+   
     font-size: 12px;
     font: sans-serif;
 }
@@ -35,7 +35,7 @@ color: black;
 position: absolute;
 font-size: 20px;
 left: 9.5em;
-margin:0.2em;
+
 top: 0.3em;
 color: black;
 cursor: pointer;
@@ -43,8 +43,8 @@ cursor: pointer;
 
 .play-icon-volume {
     position: absolute; 
-    right: 12em;
-    top: 0.35em;
+    right: 15em;
+    top: 0.6em;
     font-size: 20px;
     color: black;
     cursor: pointer;

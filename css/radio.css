@@ -81,14 +81,14 @@ nav li {
 }
 
   
-nav a {
+/* nav a {
   font-weight: 1000;
   text-decoration: none;
   text-transform: uppercase;
   font-size: .8rem;
   padding: .5em;
   color: rgb(170, 22, 22);
-}
+} */
 .home-radio {
   padding: 8em 0;
   color:#fff;

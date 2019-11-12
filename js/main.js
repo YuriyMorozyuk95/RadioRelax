@@ -54,27 +54,23 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active-dot";
 }
 
+// var slideProgramIndex = 1;
+// showProgramSlides(slideProgramIndex);
 
+// function plusProgramSlides(n) {
+//   showProgramSlides(slideProgramIndex += n);
+// }
 
-
-
-var slideProgramIndex = 1;
-showProgramSlides(slideProgramIndex);
-
-function plusProgramSlides(n) {
-  showProgramSlides(slideProgramIndex += n);
-}
-
-function showProgramSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("programSlides");
-  if (n > slides.length) {slideProgramIndex = 1}    
-  if (n < 1) {slideProgramIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  slides[slideProgramIndex-1].style.display = "block";
-}
+// function showProgramSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("programSlides");
+//   if (n > slides.length) {slideProgramIndex = 1}    
+//   if (n < 1) {slideProgramIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";  
+//   }
+//   slides[slideProgramIndex-1].style.display = "block";
+// }
 
 jQuery(window).load(function() {
  
@@ -121,9 +117,18 @@ $(
 $('#RadioRelaxStream').on('click', function(){
   var aud = $('audio')[0];
   aud.src='http://37.0.31.66:8000/relax';
-  aud.pause();
-  $('.play-pause').removeClass('fa-pause');
-  $('.play-pause').addClass('fa-play');
+  if (aud.paused)
+  {
+    aud.play();
+    $('.play-pause').removeClass('fa-play');
+    $('.play-pause').addClass('fa-pause');
+  }
+  else{
+    aud.pause();
+    $('.play-pause').removeClass('fa-pause');
+    $('.play-pause').addClass('fa-play');
+  }
+  $
   $('#currentRadio').text("Relax Radio");
 })
 
@@ -131,7 +136,17 @@ $('#RadioRelaxStream').on('click', function(){
 $('#RadioRelaxInternationalStream').on('click', function(){
   var aud = $('audio')[0];
   aud.src='http://37.0.31.66:8000/international';
-  aud.pause();
+  if (aud.paused)
+  {
+    aud.play();
+    $('.play-pause').removeClass('fa-play');
+    $('.play-pause').addClass('fa-pause');
+  }
+  else{
+    aud.pause();
+    $('.play-pause').removeClass('fa-pause');
+    $('.play-pause').addClass('fa-play');
+  }
   $('.play-pause').removeClass('fa-pause');
   $('.play-pause').addClass('fa-play');
   $('#currentRadio').text("Relax International");
@@ -141,7 +156,17 @@ $('#RadioRelaxInternationalStream').on('click', function(){
 $('#RadioRelaxIndoorStream').on('click', function(){
   var aud = $('audio')[0];
   aud.src='http://37.0.31.66:8000/instrumental';
-  aud.pause();
+  if (aud.paused)
+  {
+    aud.play();
+    $('.play-pause').removeClass('fa-play');
+    $('.play-pause').addClass('fa-pause');
+  }
+  else{
+    aud.pause();
+    $('.play-pause').removeClass('fa-pause');
+    $('.play-pause').addClass('fa-play');
+  }
   $('.play-pause').removeClass('fa-pause');
   $('.play-pause').addClass('fa-play');
   $('#currentRadio').text("Relax Indoor");
@@ -151,7 +176,17 @@ $('#RadioRelaxIndoorStream').on('click', function(){
 $('#RadioRelaxCafeStream').on('click', function(){
   var aud = $('audio')[0];
   aud.src='http://37.0.31.66:8000/cafe';
-  aud.pause();
+  if (aud.paused)
+  {
+    aud.play();
+    $('.play-pause').removeClass('fa-play');
+    $('.play-pause').addClass('fa-pause');
+  }
+  else{
+    aud.pause();
+    $('.play-pause').removeClass('fa-pause');
+    $('.play-pause').addClass('fa-play');
+  }
   $('.play-pause').removeClass('fa-pause');
   $('.play-pause').addClass('fa-play');
   $('#currentRadio').text("Relax Cafe");
