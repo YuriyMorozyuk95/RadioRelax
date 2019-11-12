@@ -84,3 +84,87 @@ jQuery(window).load(function() {
   $('.carousel').carousel('pause');
 
 });
+
+/* 
+Player */
+
+$(
+  function(){
+  var aud = $('audio')[0];
+  $('.play-pause').on('click', function(){
+  if (aud.paused) {
+    aud.play();
+    $('.play-pause').removeClass('fa-play');
+    $('.play-pause').addClass('fa-pause');
+  }
+  else {
+    aud.pause();
+    $('.play-pause').removeClass('fa-pause');
+    $('.play-pause').addClass('fa-play');
+  }
+})
+
+  $('.sound-up-down').on('click', function(){
+    var aud = $('audio')[0];
+    if (aud.muted) {
+      aud.muted = false;
+      $('.sound-up-down').removeClass('fa-volume-down');
+      $('.sound-up-down').addClass('fa-volume-up');
+    }
+    else {
+      aud.muted = true;
+      $('.sound-up-down').removeClass('fa-volume-up');
+      $('.sound-up-down').addClass('fa-volume-down');
+    }
+})
+
+$('#RadioRelaxStream').on('click', function(){
+  var aud = $('audio')[0];
+  aud.src='http://37.0.31.66:8000/relax';
+  aud.pause();
+  $('.play-pause').removeClass('fa-pause');
+  $('.play-pause').addClass('fa-play');
+  $('#currentRadio').text("Relax Radio");
+})
+
+
+$('#RadioRelaxInternationalStream').on('click', function(){
+  var aud = $('audio')[0];
+  aud.src='http://37.0.31.66:8000/international';
+  aud.pause();
+  $('.play-pause').removeClass('fa-pause');
+  $('.play-pause').addClass('fa-play');
+  $('#currentRadio').text("Relax International");
+})
+
+
+$('#RadioRelaxIndoorStream').on('click', function(){
+  var aud = $('audio')[0];
+  aud.src='http://37.0.31.66:8000/instrumental';
+  aud.pause();
+  $('.play-pause').removeClass('fa-pause');
+  $('.play-pause').addClass('fa-play');
+  $('#currentRadio').text("Relax Indoor");
+})
+
+
+$('#RadioRelaxCafeStream').on('click', function(){
+  var aud = $('audio')[0];
+  aud.src='http://37.0.31.66:8000/cafe';
+  aud.pause();
+  $('.play-pause').removeClass('fa-pause');
+  $('.play-pause').addClass('fa-play');
+  $('#currentRadio').text("Relax Cafe");
+})
+
+
+
+})
+
+function SetVolume(val)
+    {
+        var player = document.getElementById('audioplayer');
+        // console.log('Before: ' + player.volume);
+        player.volume = val / 100;
+        // console.log('After: ' + player.volume);
+    }

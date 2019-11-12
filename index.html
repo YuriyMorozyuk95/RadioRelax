@@ -15,7 +15,10 @@
     <link rel = "stylesheet" href = "css/SliderShow.css">
     <link rel = "stylesheet" href = "css/font-face.css">
     <link rel = "stylesheet" href = "sample.css">
-
+    <link rel = "stylesheet" href = "playerbar.css">
+    <link rel = "stylesheet" href = "slider.css">
+    <link rel = "stylesheet" href = "audioplayer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 
    
@@ -30,7 +33,49 @@
           <li><a href="#contact">Контакты</a></li>
         </ul>
       </nav>
-   
+
+      <!-- player -->
+      <div class="player">
+    
+
+        <input type="checkbox" id ="nav-toggle" class="nav-toggle">
+        <div class= "nav-relax">
+          <ul>
+            <li><a id="RadioRelaxStream" href="#">Relax Radio</a></li>
+            <li><a id="RadioRelaxInternationalStream" href="#">Relax International</a></li>
+            <li><a id="RadioRelaxIndoorStream" href="#">Relax Indoor</a></li>
+            <li><a id="RadioRelaxCafeStream" href="#">Relax Cafe</a></li>
+          </ul>
+        </div>
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span class="button-pl"><h1>Relax International</h1></span>
+          </label>
+          
+              <div class="controls-pl">
+                  <audio id="audioplayer" src="http://37.0.31.66:8000/relax" type="audio/mpeg" > </audio>
+                  <div class="play-icon-play">
+                     
+                      <i class="play-pause fa fa-play"></i>
+                  </div>
+                
+                  <div class="song-name">
+                    
+                      <h1></h1> <h2><strong>Queen</strong>  --  Radio Gaga</h2>
+  
+                  </div>
+                  <div class="play-icon-volume">
+                     
+                    <i class="sound-up-down fa fa-volume-up"></i> 
+                  </div>
+                  <div class="slidecontainer">
+                      <input type="range" min="1" max="100" value="50" class="slider" id="myRange" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)">
+                  </div>
+              </div>
+            </div>
+    
+<script src="player.js"></script>
+
+
     <section id="home">
       <br class="first-line">
       <div class="slideshow-container">

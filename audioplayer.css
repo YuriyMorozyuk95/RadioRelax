@@ -1,0 +1,51 @@
+
+ 
+.controls-pl {
+    text-decoration: none;
+
+}
+.controls-pl ul {
+    text-decoration:none;
+}
+.song-name {
+display:inline-flex;
+position:absolute;
+text-decoration: none;
+text-transform: uppercase;
+top: 0.8em;
+margin-left: 14.5em;
+
+}
+.song-name h1 {
+    top: 1em;
+    font-size: 12px;
+    font: sans-serif;
+}
+.song-name h2 {
+    margin:0;
+    padding:0;
+font-size: 12px;
+font: sans-serif;
+color: black;
+}
+.song-name h2 strong {
+    color: grey;
+}
+.play-icon-play {
+position: absolute;
+font-size: 20px;
+left: 9.5em;
+margin:0.2em;
+top: 0.3em;
+color: black;
+cursor: pointer;
+}
+
+.play-icon-volume {
+    position: absolute; 
+    right: 12em;
+    top: 0.35em;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    }
