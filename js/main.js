@@ -192,6 +192,25 @@ $('#RadioRelaxCafeStream').on('click', function(){
   $('#currentRadio').text("Relax Cafe");
 })
 
+$('#RadioRelaxVeneStream').on('click', function(){
+  var aud = $('audio')[0];
+  aud.src='http://37.0.31.66:8000/vene';
+  if (aud.paused)
+  {
+    aud.play();
+    $('.play-pause').removeClass('fa-play');
+    $('.play-pause').addClass('fa-pause');
+  }
+  else{
+    aud.pause();
+    $('.play-pause').removeClass('fa-pause');
+    $('.play-pause').addClass('fa-play');
+  }
+  $('.play-pause').removeClass('fa-pause');
+  $('.play-pause').addClass('fa-play');
+  $('#currentRadio').text("Relax Vene");
+})
+
 
 
 })
