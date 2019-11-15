@@ -68,9 +68,6 @@ function playOrPause() {
   }
 }
 
-function setupPlayer() {
-}
-
 function soundUpDown() {
   if (aud.muted) {
       aud.muted = false;
@@ -126,8 +123,8 @@ $('#RadioRelaxVeneStream').on('click', function () {
 })
 
 function SetVolume(val) {
-  var player = document.getElementById('audioplayer');
-  player.volume = val / 100;
+  // var player = document.getElementById('audioplayer');
+  aud.volume = val / 100;
 }
 function getSongInfo() {
 
