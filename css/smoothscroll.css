@@ -1,4 +1,6 @@
-
+body{
+  background: #F7F7F7;
+}
 
 .navbar {
   position: fixed;
@@ -60,7 +62,7 @@ section#home{
   background: transparent;
 }
 section#radio-waves {
-  background: url(../assets/frequency-bg.svg) no-repeat top ;
+  background: url(../img/RadioMap.png) no-repeat top ;
   background-size: auto;
   height: 776px;
 }
