@@ -100,7 +100,7 @@ $('#RadioRelaxInternationalStream').on('click', function () {
 
 $('#RadioRelaxIndoorStream').on('click', function () {
   aud.src = 'http://37.0.31.66:8000/instrumental';
-  $('#currentRadio').text("Relax Indoor");
+  $('#currentRadio').text("Relax Instrumental");
   playOrPause();
   $("#audioplayer").attr("data-id", "instrumental");
   getSongInfo();

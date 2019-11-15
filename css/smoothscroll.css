@@ -66,6 +66,13 @@ section#radio-waves {
   background-size: auto;
   height: 776px;
 }
+
+section#radio-waves-ru {
+  background: url(../img/RadioMap-ru.png) no-repeat top ;
+  background-size: auto;
+  height: 776px;
+}
+
 section#programs {
   background: transparent ;
 }
