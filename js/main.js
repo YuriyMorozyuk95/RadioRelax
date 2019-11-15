@@ -89,73 +89,85 @@ $('#RadioRelaxStream').on('click', function () {
   aud.src = 'http://37.0.31.66:8000/relax';
   $('#currentRadio').text("Relax Radio");
   playOrPause();
+  $("#audioplayer").attr("data-id", "relax");
+  getSongInfo();
 })
 
 $('#RadioRelaxInternationalStream').on('click', function () {
   aud.src = 'http://37.0.31.66:8000/international';
   $('#currentRadio').text("Relax International");
   playOrPause();
+  $("#audioplayer").attr("data-id", "international");
+  getSongInfo();
 })
 
 $('#RadioRelaxIndoorStream').on('click', function () {
   aud.src = 'http://37.0.31.66:8000/instrumental';
   $('#currentRadio').text("Relax Indoor");
   playOrPause();
+  $("#audioplayer").attr("data-id", "instrumental");
+  getSongInfo();
 })
 
 $('#RadioRelaxCafeStream').on('click', function () {
   aud.src = 'http://37.0.31.66:8000/cafe';
   $('#currentRadio').text("Relax Cafe");
   playOrPause();
+  $("#audioplayer").attr("data-id", "cafe");
+  getSongInfo();
 })
 
 $('#RadioRelaxVeneStream').on('click', function () {
   aud.src = 'http://37.0.31.66:8000/vene';
   $('#currentRadio').text("Русский Relax");
   playOrPause();
+  $("#audioplayer").attr("data-id", "vene");
+  getSongInfo();
 })
 
 function SetVolume(val) {
   var player = document.getElementById('audioplayer');
   player.volume = val / 100;
 }
+function getSongInfo() {
+
+  var stream = $('#audioplayer').attr("data-id");
+
+  var streamUrl = "https://localhost:44391/api/SongNameApi/" + stream;
+
+  $.ajax({
+      type: "GET",
+      url: streamUrl,
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      success: function (data) {
+
+          // $('#artist').text(data.artist);
+          // $('#title').text(data.title);
+          $('#songName').text(data.artist + " - " + data.title);
+
+          console.log(data);
+      }, //End of AJAX Success function  
+
+      failure: function (data) {
+          console.log(data.responseText); //alert(data.responseText);
+      }, //End of AJAX failure function  
+      error: function (data) {
+          // $('#songName').text(data.responseText);
+          console.log(data.responseText); //alert(data.responseText);
+      } //End of AJAX error function  
+
+  });
+};
 
 var aud = $('audio')[0];
 var slideIndex = 1;
 showSlides(slideIndex);
 $('.play-pause').on('click', playOrPause);
 $('.sound-up-down').on('click', soundUpDown);
+getSongInfo();
+setInterval(getSongInfo, 10000);
 myMap();
 $('.carousel').carousel('pause');
 
-//function getSongInfo() {
 
-//    var stream = $('#artist').attr("data-id");
-
-//    var streamUrl = "/api/SongNameApi/" + stream;
-
-//    $.ajax({
-//        type: "GET",
-//        url: streamUrl,
-//        contentType: "application/json; charset=utf-8",
-//        dataType: "json",
-//        success: function (data) {
-
-//            $('#artist').text(data.artist);
-//            $('#title').text(data.title);
-
-//            console.log(data);
-//        }, //End of AJAX Success function  
-
-//        failure: function (data) {
-//            console.log(data.responseText); //alert(data.responseText);
-//        }, //End of AJAX failure function  
-//        error: function (data) {
-//            console.log(data.responseText); //alert(data.responseText);
-//        } //End of AJAX error function  
-
-//    });
-//};
-
-//getSongInfo();
-//setInterval(getSongInfo, 10000);

@@ -10,7 +10,6 @@
 
     <link rel = "stylesheet" href ="css/radio.css">
     <link rel = "stylesheet" href = "css/smoothscroll.css">
-    <link rel = "stylesheet" href = "css/audiobar.css">
     <link rel = "stylesheet" href = "css/common_styles.css">
     <link rel = "stylesheet" href = "css/SliderShow.css">
     <link rel = "stylesheet" href = "css/font-face.css">
@@ -62,7 +61,7 @@
           </label>
           
               <div class="controls-pl">
-                  <audio id="audioplayer" src="http://37.0.31.66:8000/vene" type="audio/mpeg" > </audio>
+                  <audio id="audioplayer" src="http://37.0.31.66:8000/vene" type="audio/mpeg" data-id="vene"> </audio>
                   <div class="play-icon-play">
                      
                       <i class="play-pause fa fa-play"></i>
@@ -70,7 +69,7 @@
                 
                   <div class="song-name">
                     
-                      <h1></h1> <h2><strong>Queen</strong>  --  Radio Gaga</h2>
+                      <h1></h1> <h2 id="songName"></h2>
   
                   </div>
                      
@@ -85,19 +84,19 @@
       <div class="slideshow-container">
 
         <div class="mySlides fade-animation">
-          <img src="img/banner2.png" class="image-banner">
+          <img src="img/banner1.png" class="image-banner">
         </div>
 
         <div class="mySlides fade-animation">
-            <a href= "https://fb.com/relaxfm.ee"  target="_blank"><img src="img/banner1.png"  class="image-banner"></a>
+            <a href= "https://fb.com/relaxfm.ee"  target="_blank"><img src="img/banner2.png"  class="image-banner"></a>
           </div>
              
       <div class="mySlides fade-animation">
         <img src="img/banner3.png" class="image-banner">
       </div>
 
-        <a class="prev" onclick="plusSlides(-1)"><img src="/assets/arrow-left.svg"/></a>
-        <a class="next" onclick="plusSlides(1)"><img src="/assets/arrow-right.svg"/></a>
+        <a class="prev" onclick="plusSlides(-1)"><img src="/img/RightArrow.png"/></a>
+        <a class="next" onclick="plusSlides(1)"><img src="/img/LeftArrow.png"/></a>
         
         </div>
         <br>
@@ -167,10 +166,10 @@
               </div>
             </div>
             <a class="carousel-control-prev" href="#programsCarousel" role="button" data-slide="prev">
-              <img src="/assets/arrow-left.svg" alt="Prev">
+              <img src="/img/RightArrow.png" alt="Prev">
             </a>
             <a class="carousel-control-next" href="#programsCarousel" role="button" data-slide="next">
-              <img src="/assets/arrow-right.svg" alt="Next">
+              <img src="/img/LeftArrow.png" alt="Next">
             </a>
           </div>
         </section>
@@ -271,7 +270,7 @@
     </section>
 
     <section id="contact">
-              <p>Телефон для размещения рекламы на Raadio Relax FM –ХХХХХХХ </p>
+              <p>Телефон для размещения рекламы на Raadio Relax FM +372 55625544 </p>
               <p>Aadress: Pärnu mnt. 139e/11, Tallinn 13517</p>
               <p>Raadioteenuse osutaja: Northstar Media OÜ </p>
               <p>Vastutav toimetaja: Vitalii Chyzhov, vitalii.chyzhov@relaxfm.ee</p>
