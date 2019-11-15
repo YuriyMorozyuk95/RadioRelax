@@ -130,7 +130,7 @@ function getSongInfo() {
 
   var stream = $('#audioplayer').attr("data-id");
 
-  var streamUrl = "https://localhost:44391/api/SongNameApi/" + stream;
+  var streamUrl = "http://217.146.67.78/api/SongNameApi/" + stream;
 
   $.ajax({
       type: "GET",
